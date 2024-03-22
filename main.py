@@ -13,6 +13,8 @@ def what_to_use(choce):
             pwd = ('-'.join([number[:3], number[3:6], number[6:]]))
         case '3':
             pwd = ('-'.join([mix[:3], mix[3:6], mix[6:]]))
+        case _:
+            pwd = "Некорректный выбор"
     return pwd
 
 
